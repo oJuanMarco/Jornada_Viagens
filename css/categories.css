@@ -36,13 +36,21 @@
 }
 
 @media screen and (min-width: 768px) {
+    .categories_cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 1024px) {
+    .categories_cards .card{
+        width: 430px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
-}
-
-@media screen and (min-width: 1920px) {
+    .categories_cards .card{
+        width: 280px;
+    }
 }
