@@ -1,7 +1,3 @@
-.categories{
-    margin-bottom: 80px;
-}
-
 .categories_cards {
   display: flex;
   flex-direction: column;
