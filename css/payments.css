@@ -7,10 +7,6 @@
   width: 100%;
 }
 
-.payments .content-container {
-  display: flex;
-}
-
 .payments .content-container .image-gallery .image.bag {
   background: url(../img/payment-mala.png) no-repeat;
   background-size: cover;
@@ -47,8 +43,9 @@
   }
 }
 
-@media screen and (min-width: 440px) {
-  .payments .content-container{
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    display: flex;
     justify-content: space-between;
   }
   .payments .content-container .text-content {
@@ -56,5 +53,6 @@
   }
   .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
 }
